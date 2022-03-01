@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Thought } = require('../models');
+const { User, Reviews } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
@@ -40,7 +40,7 @@ const resolvers = {
     Mutation: {
         addUser: async (parent, args) => {
             console.log('In add user');
-            const user = await User.crreate(args);
+            const user = await User.create(args);
             const token = signToken(user);
 
             return { token, user };
@@ -49,11 +49,11 @@ const resolvers = {
             const user = await User.findOne({ email });
 
             if (!user) {
-                throw new AuthenticationError('Wrong Shit Bitch!');
+                throw new AuthenticationError('!');
             }
             const correctPw = await user.isCorrectPassword(password);
             if (!correctPw) {
-                throw new AuthenticationError('C-mon man, get your shit together!');
+                throw new AuthenticationError('C!');
             }
 
             const token = signToken(user);
@@ -66,7 +66,7 @@ const resolvers = {
 
                 await User.findByIdAndUpdate (
                     {_id: context.user._id},
-                    { $push: { reviews: review._id } },
+                    { $push: { reviews: reviews._id } },
                     { new: true }
                 );
                 return reviews;
