@@ -30,5 +30,5 @@ const httpLink = createHttpLink({
       </ApolloProvider>
     );
   }
-  
+  test-delete;
   export default App;
