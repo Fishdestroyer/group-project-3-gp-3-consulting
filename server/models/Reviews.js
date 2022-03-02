@@ -14,10 +14,10 @@ const reviewsSchema = new Schema(
       default: Date.now,
       get: (timestamp) => dateFormat(timestamp),
     },
-    username: {
+    /*username: {
       type: String,
       required: true,
-    },
+    },*/
   },
   {
     toJSON: {

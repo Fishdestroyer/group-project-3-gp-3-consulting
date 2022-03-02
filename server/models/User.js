@@ -21,7 +21,8 @@ const userSchema = new Schema(
       minlength: 5,
     },
     reviews: {
-      type: String
+      type: String,
+      required: true,
     },
     reactions: {
       type: String,
