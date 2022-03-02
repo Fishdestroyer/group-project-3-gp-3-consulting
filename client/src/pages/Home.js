@@ -11,6 +11,20 @@ const Home = () => {
   return (
     <main>
       <div class="container">
+      <br></br>
+      <h1 class="header center orange-text">Services</h1>
+      <div class="progress">
+        <div class="indeterminate"></div>
+    </div>
+      <div class="row center">
+        <h5 class="header col s12 light">We don't milk you.</h5>
+      </div>
+      <div class="row center">
+        <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Mooove on in</a>
+      </div>
+      </div>
+      <br></br>
+      <div class="container">
     <div class="section">
 
       <div class="row">
