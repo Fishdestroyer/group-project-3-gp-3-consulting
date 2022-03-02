@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         //<header className="bg-secondary mb-4 py-2 flex-row align-center">
-        <body>
+        <header>
             <div className="container flex-row justify-space-between-lg justify-center align-center">
             <h1 ><strong><center>COW Money Making</center></strong></h1>
             
@@ -14,8 +14,8 @@ const Header = () => {
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Customer Reviews</a></li>
         <li><a href="#">About Us</a></li>
-        <li><a href="#">Meet the Team</a></li>
-        <li><a href="#">Contact Us</a></li>
+       
+        
 
 
 
@@ -24,14 +24,12 @@ const Header = () => {
         <li><a href="#">Schedule A Consulation</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Customer Reviews</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Meet the Team</a></li>
-        <li><a href="#">Contact Us</a></li>      </ul>
+        <li><a href="#">About Us</a></li>   </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
             </div>
-            </body>
+            </header>
        // </header>
         
     );
