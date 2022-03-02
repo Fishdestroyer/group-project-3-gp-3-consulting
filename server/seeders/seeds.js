@@ -1,4 +1,4 @@
-const faker = require('faker');
+/*const faker = require('faker');
 
 const db = require('../config/connection');
 const { Thought, User } = require('../models');
@@ -72,4 +72,4 @@ db.once('open', async () => {
 
   console.log('all done!');
   process.exit(0);
-});
+});*/
