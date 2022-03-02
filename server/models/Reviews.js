@@ -6,6 +6,7 @@ const reviewsSchema = new Schema(
     reviewText: {
       type: String,
      required: true,
+
       minlength: 1,
       maxlength: 280,
     },
@@ -18,6 +19,7 @@ const reviewsSchema = new Schema(
       type: String,
       required: true,
     },*/
+
   },
   {
     toJSON: {
