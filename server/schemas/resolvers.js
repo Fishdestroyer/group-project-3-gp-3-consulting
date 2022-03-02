@@ -18,8 +18,8 @@ const resolvers = {
         users: async () => {
             return User.find()
             .select('-__ -password')
-            .populate('reviews')
-            .populate('reactions');
+            //.populate('reviews')
+            //.populate('reactions');
 
         },
         user: async (parent, { username }) => {

@@ -20,14 +20,14 @@ const userSchema = new Schema(
       required: true,
       minlength: 5,
     },
-    reviews: {
+    /*reviews: {
       type: String,
       required: true,
     },
     reactions: {
       type: String,
       required: true,
-    },
+    },*/
   },
   {
     toJSON: {
