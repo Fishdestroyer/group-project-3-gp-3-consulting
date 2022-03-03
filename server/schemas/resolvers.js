@@ -49,9 +49,9 @@ const resolvers = {
         login: async (parent, { email, password }) => {
             const user = await User.findOne({ email });
 
-            if (!user) {
+           if (!user) {
                 throw new AuthenticationError('!');
-            }
+           }
             const correctPw = await user.isCorrectPassword(password);
             if (!correctPw) {
                 throw new AuthenticationError('C!');
