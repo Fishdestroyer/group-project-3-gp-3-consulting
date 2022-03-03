@@ -18,7 +18,7 @@ const resolvers = {
         users: async () => {
             return User.find()
             .select('-__ -password')
-           // .populate('reviews')
+            //.populate('reviews')
             //.populate('reactions');
 
         },

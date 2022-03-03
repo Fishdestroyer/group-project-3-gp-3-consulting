@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+/*const faker = require('faker');
+=======
+>>>>>>> e05978afea2cd9463bc3a56ce9c34ceb464a6f85
 
 const faker = require("faker");
 
@@ -43,5 +47,9 @@ db.once("open", async () => {
 
   console.log("all done!");
   process.exit(0);
+<<<<<<< HEAD
+});*/
+=======
 });
 
+>>>>>>> e05978afea2cd9463bc3a56ce9c34ceb464a6f85
