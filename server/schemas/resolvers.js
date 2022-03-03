@@ -9,7 +9,7 @@ const resolvers = {
             if (context.user) {
                 const userData = await User.findOne({_id: context.user._id})
                 .select('-__v -password')
-                .populate('reviews');
+                //.populate('reviews');
 
                 return userData;
             }
@@ -18,7 +18,7 @@ const resolvers = {
         users: async () => {
             return User.find()
             .select('-__ -password')
-            //.populate('reviews')
+           // .populate('reviews')
             //.populate('reactions');
 
         },
@@ -48,9 +48,11 @@ const resolvers = {
         },
         login: async (parent, { email, password }) => {
             const user = await User.findOne({ email });
+            console.log("hello");
 
            if (!user) {
-                throw new AuthenticationError('!');
+                throw new AuthenticationError('Crap it aint working');
+               
            }
             const correctPw = await user.isCorrectPassword(password);
             if (!correctPw) {
