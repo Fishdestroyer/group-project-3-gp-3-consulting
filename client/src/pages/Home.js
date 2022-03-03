@@ -56,7 +56,7 @@ const Home = () => {
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Tell us how we are doing</h5>
+            <h5 class="center">How are we doing?</h5>
 
             <p class="center light">
               <button class="btn waves-effect waves-light orange" type="submit" name="action">We love callbacks

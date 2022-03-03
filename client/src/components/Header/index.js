@@ -8,17 +8,13 @@ const Header = () => {
             <h1 ><strong><center>COW Money Making</center></strong></h1>
             
             <nav class="light-blue lighten-1" role="navigation">
-            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
-      <ul class="right hide-on-med-and-down">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">COW</a>
+      <ul class="right hide-on-med-and-down" >
         <li><a href="#">Schedule A Consulation</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Customer Reviews</a></li>
         <li><a href="#">About Us</a></li>
-       
-        
-
-
-
+  
       </ul>
       <ul id="nav-mobile" class="sidenav">
         <li><a href="#">Schedule A Consulation</a></li>
