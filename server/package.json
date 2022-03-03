@@ -1,27 +1,52 @@
 {
+
   "name": "mern-server",
+
   "version": "1.0.0",
+
   "description": "",
+
   "main": "server.js",
+
   "scripts": {
+
     "start": "node server.js",
+
     "watch": "nodemon",
+
     "seed": "node seeders/seeds.js"
+
   },
+
   "keywords": [],
+
   "author": "",
+
   "license": "ISC",
+
   "dependencies": {
-    "apollo": "^2.33.9",
-    "apollo-server-express": "^2.19.0",
-    "bcrypt": "^5.0.1",
+
+    "apollo-server-express": "^3.6.3",
+
+    "bcrypt": "^4.0.1",
+
     "express": "^4.17.1",
+
     "faker": "^4.1.0",
+
     "graphql": "^15.5.0",
+
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.13"
+
+    "mongoose": "^6.2.4"
+
   },
+
   "devDependencies": {
+
     "nodemon": "^2.0.3"
+
   }
+
 }
+
