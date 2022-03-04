@@ -3,7 +3,7 @@
 =======
 >>>>>>> e05978afea2cd9463bc3a56ce9c34ceb464a6f85
 
-const faker = require("faker");
+/*const faker = require("faker");
 
 const db = require("../config/connection");
 const { Review, User } = require("../models");
@@ -50,6 +50,10 @@ db.once("open", async () => {
 <<<<<<< HEAD
 });*/
 =======
+<<<<<<< HEAD
+});*/
+=======
 });
+>>>>>>> origin/develop
 
 >>>>>>> e05978afea2cd9463bc3a56ce9c34ceb464a6f85

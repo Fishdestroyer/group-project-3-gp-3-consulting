@@ -12,7 +12,7 @@ type User {
 
 type Reviews {
     _id: ID
-    reviewText: String
+    reviewsText: String
     createdAt: String
     username: String
     reactions: [Reaction]
@@ -34,9 +34,9 @@ type Query {
 }
 
 type Mutation {
-    login(email: String!, password: String!,): Auth
+    login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    addReviews(reviewText: String!): Reviews
+    addReviews(reviewsText: String!): Reviews
     addReaction(reviewsId: ID!, reactionBody: String!): Reviews
 }
 
