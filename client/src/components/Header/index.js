@@ -8,11 +8,19 @@ const Header = () => {
             <h1 ><strong><center>COW Money Making</center></strong></h1>
             
             <nav class="light-blue lighten-1 " role="navigation">
+<<<<<<< HEAD
             <div class="nav-wrapper container flex-wrap"><a id="logo-container" href="#" class="brand-logo">COW</a>
       <ul class="right hide-on-med-and-down" >
         <li><a href="../../Signup">Sign Up Here</a></li>
         <li><a href="../../Login">Log in to your account</a></li>
         <li><a href="#">Customer Reviews</a></li>
+=======
+            <div class="nav-wrapper container flex-wrap"><a id="logo-container" href="/" class="brand-logo">COW</a>
+      <ul class="right hide-on-med-and-down" >
+        <li><a href="../../Signup">Sign Up Here</a></li>
+        <li><a href="../../Login">Log in to your account</a></li>
+        <li><a href="../ReviewsList">Customer Reviews</a></li>
+>>>>>>> develop3
         <li><a href="../../Aboutus">About Us</a></li>
   
       </ul>
