@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Login from './pages/Login';
 //import NoMatch from './pages/NoMatch';
 //import SingleReview from './pages/SingleReview';
-//import Profile from './pages/Profile';
+import Aboutus from './pages/Aboutus';
 import Signup from './pages/Signup';
 import Home from './pages/Home'
 
@@ -32,6 +32,7 @@ const httpLink = createHttpLink({
         <Route exact path="/" component={Home} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/signup" component={Signup} />
+            <Route exact path="/aboutus" component={Aboutus} />
            
         </div>
         <Footer />
