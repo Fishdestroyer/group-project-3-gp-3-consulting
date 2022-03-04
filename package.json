@@ -1,29 +1,10 @@
 {
   "name": "group-project-3-gp3-consulting",
-<<<<<<< .merge_file_LZT2Jp
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.3",
-    "@testing-library/user-event": "^13.5.0",
-    "express": "^4.17.3",
-    "faker": "^5.5.3",
-    "graphql": "^16.3.0",
-    "mongoose": "^6.2.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "vitals": "^0.1.2",
-    "web": "^0.0.2",
-    "web-vitals": "^2.1.4"
-=======
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "devDependencies": {
     "concurrently": "^7.0.0"
->>>>>>> .merge_file_alfwU8
   },
   "scripts": {
     "start": "node server/server.js",
@@ -31,29 +12,6 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed"
   },
-<<<<<<< .merge_file_LZT2Jp
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "concurrently": "^7.0.0"
-  }
-=======
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fishdestroyer/group-project-3-gp-3-consulting.git"
@@ -64,5 +22,4 @@
     "url": "https://github.com/Fishdestroyer/group-project-3-gp-3-consulting/issues"
   },
   "homepage": "https://github.com/Fishdestroyer/group-project-3-gp-3-consulting#readme"
->>>>>>> .merge_file_alfwU8
 }
