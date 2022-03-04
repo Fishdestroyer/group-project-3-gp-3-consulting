@@ -5,7 +5,8 @@ const reviewsSchema = new Schema(
   {
     reviewText: {
       type: String,
-      required: "You need to leave a Review!",
+     required: true,
+
       minlength: 1,
       maxlength: 280,
     },
@@ -14,10 +15,11 @@ const reviewsSchema = new Schema(
       default: Date.now,
       get: (timestamp) => dateFormat(timestamp),
     },
-    username: {
+    /*username: {
       type: String,
       required: true,
-    },
+    },*/
+
   },
   {
     toJSON: {
