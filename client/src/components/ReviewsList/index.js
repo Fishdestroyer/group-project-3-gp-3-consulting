@@ -9,7 +9,7 @@ const ReviewsList = ({ reviews, title }) => {
     <div>
       <h3>{title}</h3>
       {reviews &&
-        reviews.map(thought => (
+        reviews.map(reviews => (
           <div key={reviews._id} className="card mb-3">
             <p className="card-header">
               {reviews.username}
@@ -18,7 +18,7 @@ const ReviewsList = ({ reviews, title }) => {
             <div className="card-body">
               <p>{reviews.reviewsText}</p>
               <p className="mb-0">
-                Reactions: {thought.reactionCount} || Click to{' '}
+                Reactions: {reviews.reactionCount} || Click to{' '}
                 {reviews.reactionCount ? 'see' : 'start'} the discussion!
               </p>
             </div>
