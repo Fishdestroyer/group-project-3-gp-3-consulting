@@ -1,5 +1,6 @@
 {
   "name": "group-project-3-gp3-consulting",
+<<<<<<< .merge_file_LZT2Jp
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,13 @@
     "vitals": "^0.1.2",
     "web": "^0.0.2",
     "web-vitals": "^2.1.4"
+=======
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+>>>>>>> .merge_file_alfwU8
   },
   "scripts": {
     "start": "node server/server.js",
@@ -23,6 +31,7 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed"
   },
+<<<<<<< .merge_file_LZT2Jp
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,4 +53,16 @@
   "devDependencies": {
     "concurrently": "^7.0.0"
   }
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fishdestroyer/group-project-3-gp-3-consulting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fishdestroyer/group-project-3-gp-3-consulting/issues"
+  },
+  "homepage": "https://github.com/Fishdestroyer/group-project-3-gp-3-consulting#readme"
+>>>>>>> .merge_file_alfwU8
 }

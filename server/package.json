@@ -1,5 +1,6 @@
 {
 
+<<<<<<< .merge_file_ApMFeE
   "name": "mern-server",
   "version": "1.0.0",
   "description": "",
@@ -25,3 +26,55 @@
     "nodemon": "^2.0.3"
   }
 }
+=======
+    "name": "mern-server",
+
+    "version": "1.0.0",
+
+    "description": "",
+
+    "main": "server.js",
+
+    "scripts": {
+
+        "start": "node server.js",
+
+        "watch": "nodemon",
+
+        "seed": "node seeders/seeds.js"
+
+    },
+
+    "keywords": [],
+
+    "author": "",
+
+    "license": "ISC",
+
+    "dependencies": {
+
+        "apollo-server-express": "^2.19.0",
+
+        "bcrypt": "^5.0.1",
+
+        "express": "^4.17.1",
+
+        "faker": "^4.1.0",
+
+        "graphql": "^15.5.0",
+
+        "jsonwebtoken": "^8.5.1",
+
+        "mongoose": "^6.0.13"
+
+    },
+
+    "devDependencies": {
+
+        "nodemon": "^2.0.3"
+
+    }
+
+}
+
+>>>>>>> .merge_file_9Cjy1n
