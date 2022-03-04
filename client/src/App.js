@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Login from './pages/Login';
-//import NoMatch from './pages/NoMatch';
+import ReviewsList from './components/ReviewsList';
 //import SingleReview from './pages/SingleReview';
 import Aboutus from './pages/Aboutus';
 import Signup from './pages/Signup';
@@ -33,7 +33,8 @@ const httpLink = createHttpLink({
             <Route exact path="/login" component={Login} />
             <Route exact path="/signup" component={Signup} />
             <Route exact path="/aboutus" component={Aboutus} />
-           
+           <Route exact path="/customerreviews" component={ReviewsList}>
+             </Route>
         </div>
         <Footer />
       </div>
