@@ -41,7 +41,7 @@
             "last 1 safari version"
         ]
     },
-    "main": "index.js",
+    "main": "app.js",
     "keywords": [],
     "author": "",
     "license": "ISC",
