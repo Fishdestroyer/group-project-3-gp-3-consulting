@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/Fishdestroyer/group-project-3-gp-3-consulting.git",
     "type": "heroku",
-    "url": "git+https://git.heroku.com/cowsulting.git"
+    "url": "https://git.heroku.com/cowsulting.git"
   },
   "author": "",
   "license": "ISC",
