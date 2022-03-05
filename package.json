@@ -13,10 +13,8 @@
     "seed": "cd server && npm run seed"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Fishdestroyer/group-project-3-gp-3-consulting.git",
-    "type": "heroku",
-    "url": "heroku+https://git.heroku.com/cowsulting.git"
+    "type": "git", 
+    "url": "git+https://github.com/Fishdestroyer/group-project-3-gp-3-consulting.git"
   },
   "author": "",
   "license": "ISC",
