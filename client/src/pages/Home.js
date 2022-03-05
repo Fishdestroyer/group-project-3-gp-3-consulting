@@ -1,11 +1,11 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
-import { QUERY_REVIEWS } from '../utils/queries';
-import ReviewsList from '../components/ReviewsList';
+//import { QUERY_REVIEWS } from '../utils/queries';
+//import Reviews from './Reviews';
 
 const Home = () => {
-  const { loading, data } = useQuery(QUERY_REVIEWS);
-  const reviews = data?.reviews || [];
+ // const { loading, data } = useQuery(QUERY_REVIEWS);
+ // const reviews = data?.reviews || [];
   //console.log(hello);
   
   return (

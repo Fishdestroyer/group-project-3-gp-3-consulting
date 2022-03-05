@@ -4,7 +4,7 @@ export const QUERY_REVIEWS = gql`
   query reviews($username: String) {
     reviews(username: $username) {
       _id
-      reviewText
+      reviewsText
       createdAt
       username
       reactionCount
@@ -13,6 +13,27 @@ export const QUERY_REVIEWS = gql`
         createdAt
         username
         reactionBody
+      }
+    }
+  }
+`;
+
+export const QUERY_USER = gql`
+  query user($username: String!) {
+    user(username: $username) {
+      _id
+      username
+      email
+      friendCount
+      friends {
+        _id
+        username
+      }
+      thoughts {
+        _id
+        thoughtText
+        createdAt
+        reactionCount
       }
     }
   }

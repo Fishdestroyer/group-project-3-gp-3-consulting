@@ -15,10 +15,10 @@ const reviewsSchema = new Schema(
       default: Date.now,
       get: (timestamp) => dateFormat(timestamp),
     },
-    /*username: {
+    username: {
       type: String,
       required: true,
-    },*/
+    },
 
   },
   {
@@ -28,6 +28,6 @@ const reviewsSchema = new Schema(
   }
 );
 
-const Reviews = model("Reviews", reviewsSchema);
+const Reviews = model('Reviews', reviewsSchema);
 
 module.exports = Reviews;
