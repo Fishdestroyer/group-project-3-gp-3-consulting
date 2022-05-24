@@ -38,15 +38,13 @@
 
         "jsonwebtoken": "^8.5.1",
 
-        "mongoose": "^6.0.13",
-
-        "seed": "^0.4.4"
+        "mongoose": "^6.2.4"
 
     },
 
     "devDependencies": {
 
-        "nodemon": "^2.0.3"
+        "nodemon": "^2.0.15"
 
     }
 
